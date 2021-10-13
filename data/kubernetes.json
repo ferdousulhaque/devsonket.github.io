@@ -60,7 +60,7 @@
             ]
         },
         {
-            "title": "কুবারনেট রসদ পরিবর্তন",
+            "title": "কুবারনেট নতুন কোড ডেপলয়",
             "items": [
                 {
                     "definition": "পোড লেবেলিং",
@@ -102,10 +102,6 @@
                 {
                     "definition": "রসদ কপি বাড়ানো ফাইল থেকে",
                     "code": "kubectl scale --replicas=3 -f foo.yaml"
-                },
-                {
-                    "definition": "অনেক কপি কন্ট্রোলার বাড়ানো",
-                    "code": "kubectl scale --replicas=5 rc/foo rc/bar rc/baz"
                 },
                 {
                     "definition": "অনেক কপি কন্ট্রোলার বাড়ানো",
