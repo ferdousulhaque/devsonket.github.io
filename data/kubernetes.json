@@ -35,31 +35,6 @@
             ]
         },
         {
-            "title": "কুবারনেট রসদ পরিবর্তন",
-            "items": [
-                {
-                    "definition": "পোড লেবেলিং",
-                    "code": "kubectl label pods my-pod new-label=awesome"
-                },
-                {
-                    "definition": "নতুন সনক্রন দেওয়া",
-                    "code": "kubectl set image deployment/frontend www=image:v2"
-                },
-                {
-                    "definition": "সনক্রন ইতিহাস",
-                    "code": "kubectl rollout history deployment/frontend"
-                },
-                {
-                    "definition": "পূর্বের সনক্রন ফেরত",
-                    "code": "kubectl rollout undo deployment/frontend"
-                },
-                {
-                    "definition": "পূর্বের সনক্রন ফেরত",
-                    "code": "kubectl rollout undo deployment/frontend"
-                }
-            ]
-        },
-        {
             "title": "কুবারনেট নতুন কোড ডেপলয়",
             "items": [
                 {
@@ -85,6 +60,14 @@
                 {
                     "definition": "পছন্দের এডিটর ব্যাবহার",
                     "code": "KUBE_EDITOR=\"nano\" kubectl edit svc/docker-registry"
+                },
+                {
+                    "definition": "পোড লেবেলিং",
+                    "code": "kubectl label pods my-pod new-label=awesome"
+                },
+                {
+                    "definition": "নতুন সনক্রন দেওয়া",
+                    "code": "kubectl set image deployment/frontend www=image:v2"
                 }
             ]
         },
